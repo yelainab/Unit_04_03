@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+@import "cw_layout.css";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 3
+   
+   Civil War History Style Sheet
+   Author: Yelaina Buford 
+   Date:   9/13/19
+   
+   Filename: cw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html{
+   background-color: rgb(151, 151, 151);
+}
+body{
+   background-color: rgb(180, 180, 223);
+   font-family: Verdana, Geneva, sans-serif;
+}
+h1, h2{
+   font-weight: normal;
+}
+nav a{
+   text-decoration: none;
+}
+footer{
+   color:white;
+   background-color: rgb(101, 101, 101);
+   font-size: 0.8em;
+   text-align: center;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+/* Body Header Styles */
+/*step 12*/
+body > header{
+   background-color: rgb(97, 97, 211);
+}
+/*fix step 13*/
+body h1::first-line{
+   font-size: 4vw;
+   color: rgba(255, 255, 255, 0.8);
+   font-family: Limelight,cursive;
+   margin: 0px;
+}
+h1 > span{
+   color: rgba(255, 255, 255, 0.4);
+}
+/* Navigation Styles */
+nav#mainlinks{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+nav a:visited, nav a:link{
+   color: white
+}
+
+
+/* Outline Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Article Styles */
+
+
+
+
+/* Aside Styles */
+
